@@ -1,0 +1,14 @@
+{
+  "name": "my-behavior-tree-project",
+  "version-string": "1.0.0",
+  "dependencies": [
+    {
+      "name": "behaviortree-cpp",
+      "features": [
+        "behaviortree-cpp",
+        "cppzmq",
+        "zeromq"
+      ]
+    }
+  ]
+}

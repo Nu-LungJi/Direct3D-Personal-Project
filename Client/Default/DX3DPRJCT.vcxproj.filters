@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="01. GameManager">
+      <UniqueIdentifier>{837387c1-80f9-442c-86b1-421ec3e6376e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. DefaultWindow">
+      <UniqueIdentifier>{141b4e80-ae7a-4b99-96c7-eefa01d12f7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. DefaultWindow\Assets">
+      <UniqueIdentifier>{e55fa353-a0fe-4abc-af0b-139022bd1485}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. DefaultWindow\Default">
+      <UniqueIdentifier>{57b2199b-a22b-4a6b-b1b4-d199278cccae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene">
+      <UniqueIdentifier>{6a0c4361-bd8d-4c4a-9247-0515f2cbaead}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\01. MainScene">
+      <UniqueIdentifier>{ed2273f5-3817-4ebe-abe2-b2a020f521f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject">
+      <UniqueIdentifier>{c2141679-c903-427f-ad85-74fd938feba3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Shader">
+      <UniqueIdentifier>{691e0811-e5fb-4a02-ba43-b89d13c20cf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. UI">
+      <UniqueIdentifier>{46fff4bb-c469-470d-bcba-24e81bbb11c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\99. Monster">
+      <UniqueIdentifier>{e8049eab-bbe0-42f2-808a-0a0870714a78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\99. Player">
+      <UniqueIdentifier>{83623ddf-aa96-421b-8568-ab63825be1d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\01. Camera">
+      <UniqueIdentifier>{37be44e8-afd5-490e-a0ee-b2d9d84be864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. UI\01. MainUI">
+      <UniqueIdentifier>{3a7217cc-52bc-4bce-a6a2-fefaf5858bdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\01. Camera\01. DynamicCamera">
+      <UniqueIdentifier>{389f4de3-de82-4053-9b3e-eb36602e7981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\01. Camera\02. PlayerCamera">
+      <UniqueIdentifier>{245c8d0c-d581-4789-ad1b-9818906feb73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\01. Camera\03. ActionCamera">
+      <UniqueIdentifier>{312fdfac-789b-4bba-91e3-00c1c3ee5f5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\99. FinalBoss">
+      <UniqueIdentifier>{c15c1e28-1efc-4546-ab9c-df18f1238f93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\99. FinalBoss\BehaviorTree">
+      <UniqueIdentifier>{9a7850f4-935d-4fc2-98af-4ffb2362441c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\99. Monster\Monster_Knight">
+      <UniqueIdentifier>{d0e270b6-bf9c-4d07-a506-5ca8ef08f9ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\99. Monster\Monster_Knight\BehaviorTree">
+      <UniqueIdentifier>{510a029c-7a32-4e88-ad09-369da0dd4efd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\99. Monster\Monster_Void">
+      <UniqueIdentifier>{ca99ccca-cedc-4ed8-b031-f7a9101cdaf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\99. Monster\Monster_Void\BehaviorTree">
+      <UniqueIdentifier>{3aecee5a-c3e4-4db1-8875-d59f44c08b62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\99. Enviroment">
+      <UniqueIdentifier>{2d40e263-6df8-46b7-90a0-884cff4fe9a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\99. Enviroment\Terrain">
+      <UniqueIdentifier>{7ca1b289-49e1-4804-af32-1cb919c0471b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\01. Camera\03. ActionCamera\BossCamera">
+      <UniqueIdentifier>{969370d3-f278-4d22-8705-3c24ca9f1ffe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. UI\02. DamageFont">
+      <UniqueIdentifier>{220601b6-d105-42d2-b6f0-fec8f471388d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\02. BossScene">
+      <UniqueIdentifier>{8bc27ea3-3959-4617-8f4b-733f06c630fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\99. Enviroment\SkySphere">
+      <UniqueIdentifier>{150cea61-1980-411e-93ec-11194c8186b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\99. Player\StateMachine">
+      <UniqueIdentifier>{69ceac9d-cd0f-4739-b118-afeb25f03d8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\99. Player\HitBoxPool">
+      <UniqueIdentifier>{bcf3cc65-2b1c-4115-9911-b6e9e1f194dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\99. Player\HitBoxPool\HitBox">
+      <UniqueIdentifier>{f20f7cc4-a139-472f-81eb-9f1242f35ed5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. UI\04. HPBar">
+      <UniqueIdentifier>{1edd2a09-5678-4818-a9dd-e34674194bef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\99. Enviroment\Portal">
+      <UniqueIdentifier>{cbadde67-a09f-4fa3-a566-4cedee271df1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\99. Enviroment\Bicon">
+      <UniqueIdentifier>{4fddf844-afd9-4290-b23c-dd7823c92222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\99. Player\Effect">
+      <UniqueIdentifier>{dd2701b2-9fa4-408a-a7a1-74de1223848e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. UI\05. EventUI">
+      <UniqueIdentifier>{40e39ece-469b-4ac0-ae7c-96e169c5ec1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\99. Enviroment\RewardChest">
+      <UniqueIdentifier>{2f97b680-09ad-4b6f-a8f5-4ba1861a10ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. UI\06. BossUI">
+      <UniqueIdentifier>{d41191f9-aa8d-4cb4-aef5-8a4074cbb914}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\99. FinalBoss\BossEffect">
+      <UniqueIdentifier>{e11f23ff-8576-4b59-90cb-687d67cf72f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\99. FinalBoss\BossCard">
+      <UniqueIdentifier>{a98246ca-d197-4bcd-92b3-30fabd1a1aab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\99. Enviroment\Ocean">
+      <UniqueIdentifier>{a79fe9ee-3308-47f7-a292-01c242ca7da3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. UI\03. FilterUI">
+      <UniqueIdentifier>{1916c704-96c1-4ee4-9320-96f06b407c46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\00. LoadingScene">
+      <UniqueIdentifier>{a685df1e-120c-4877-826c-0954d3b64043}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DX3DPRJCT.h">
+      <Filter>00. DefaultWindow\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="DEFINE.h">
+      <Filter>00. DefaultWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="ENUM.h">
+      <Filter>00. DefaultWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="PCH.h">
+      <Filter>00. DefaultWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>00. DefaultWindow\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>00. DefaultWindow\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>00. DefaultWindow\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\GameManager.h">
+      <Filter>01. GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BehaviorTree_Knight.h">
+      <Filter>03. GameObject\99. Monster\Monster_Knight\BehaviorTree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\StateMachine.h">
+      <Filter>03. GameObject\99. Player\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MainScene.h">
+      <Filter>02. Scene\01. MainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player.h">
+      <Filter>03. GameObject\99. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MainUI.h">
+      <Filter>05. UI\01. MainUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\DynamicCamera.h">
+      <Filter>03. GameObject\01. Camera\01. DynamicCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PlayerCamera.h">
+      <Filter>03. GameObject\01. Camera\02. PlayerCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ActionCamera.h">
+      <Filter>03. GameObject\01. Camera\03. ActionCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Monster_FinalBoss.h">
+      <Filter>03. GameObject\99. FinalBoss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BehaviorTree_FinalBoss.h">
+      <Filter>03. GameObject\99. FinalBoss\BehaviorTree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Monster_Knight.h">
+      <Filter>03. GameObject\99. Monster\Monster_Knight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Monster_Void.h">
+      <Filter>03. GameObject\99. Monster\Monster_Void</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BehaviorTree_Void.h">
+      <Filter>03. GameObject\99. Monster\Monster_Void\BehaviorTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>00. DefaultWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SkySphere.h">
+      <Filter>03. GameObject\99. Enviroment\SkySphere</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Topography.h">
+      <Filter>03. GameObject\99. Enviroment\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ActionCamera_Boss.h">
+      <Filter>03. GameObject\01. Camera\03. ActionCamera\BossCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\DamageFontUI.h">
+      <Filter>05. UI\02. DamageFont</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PopUpUI.h">
+      <Filter>05. UI\03. FilterUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BossScene.h">
+      <Filter>02. Scene\02. BossScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PlayerHitBox.h">
+      <Filter>03. GameObject\99. Player\HitBoxPool\HitBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\HitBoxPool.h">
+      <Filter>03. GameObject\99. Player\HitBoxPool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\HPBarUI.h">
+      <Filter>05. UI\04. HPBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Portal.h">
+      <Filter>03. GameObject\99. Enviroment\Portal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Bicon.h">
+      <Filter>03. GameObject\99. Enviroment\Bicon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PlayerEffect.h">
+      <Filter>03. GameObject\99. Player\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\EventUI.h">
+      <Filter>05. UI\05. EventUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\RewardChest.h">
+      <Filter>03. GameObject\99. Enviroment\RewardChest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BossUI.h">
+      <Filter>05. UI\06. BossUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BossEffect.h">
+      <Filter>03. GameObject\99. FinalBoss\BossEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BossCard.h">
+      <Filter>03. GameObject\99. FinalBoss\BossCard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Ocean.h">
+      <Filter>03. GameObject\99. Enviroment\Ocean</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\LoadingScene.h">
+      <Filter>02. Scene\00. LoadingScene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DX3DPRJCT.cpp">
+      <Filter>00. DefaultWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="PCH.cpp">
+      <Filter>00. DefaultWindow\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\GameManager.cpp">
+      <Filter>01. GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BehaviorTree_Knight.cpp">
+      <Filter>03. GameObject\99. Monster\Monster_Knight\BehaviorTree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\StateMachine.cpp">
+      <Filter>03. GameObject\99. Player\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MainScene.cpp">
+      <Filter>02. Scene\01. MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player.cpp">
+      <Filter>03. GameObject\99. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MainUI.cpp">
+      <Filter>05. UI\01. MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\DynamicCamera.cpp">
+      <Filter>03. GameObject\01. Camera\01. DynamicCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PlayerCamera.cpp">
+      <Filter>03. GameObject\01. Camera\02. PlayerCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ActionCamera.cpp">
+      <Filter>03. GameObject\01. Camera\03. ActionCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Monster_FinalBoss.cpp">
+      <Filter>03. GameObject\99. FinalBoss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BehaviorTree_FinalBoss.cpp">
+      <Filter>03. GameObject\99. FinalBoss\BehaviorTree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Monster_Knight.cpp">
+      <Filter>03. GameObject\99. Monster\Monster_Knight</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Monster_Void.cpp">
+      <Filter>03. GameObject\99. Monster\Monster_Void</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BehaviorTree_Void.cpp">
+      <Filter>03. GameObject\99. Monster\Monster_Void\BehaviorTree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SkySphere.cpp">
+      <Filter>03. GameObject\99. Enviroment\SkySphere</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Topography.cpp">
+      <Filter>03. GameObject\99. Enviroment\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ActionCamera_Boss.cpp">
+      <Filter>03. GameObject\01. Camera\03. ActionCamera\BossCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\DamageFontUI.cpp">
+      <Filter>05. UI\02. DamageFont</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PopUpUI.cpp">
+      <Filter>05. UI\03. FilterUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BossScene.cpp">
+      <Filter>02. Scene\02. BossScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PlayerHitBox.cpp">
+      <Filter>03. GameObject\99. Player\HitBoxPool\HitBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\HitBoxPool.cpp">
+      <Filter>03. GameObject\99. Player\HitBoxPool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\HPBarUI.cpp">
+      <Filter>05. UI\04. HPBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Portal.cpp">
+      <Filter>03. GameObject\99. Enviroment\Portal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Bicon.cpp">
+      <Filter>03. GameObject\99. Enviroment\Bicon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PlayerEffect.cpp">
+      <Filter>03. GameObject\99. Player\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\EventUI.cpp">
+      <Filter>05. UI\05. EventUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\RewardChest.cpp">
+      <Filter>03. GameObject\99. Enviroment\RewardChest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BossUI.cpp">
+      <Filter>05. UI\06. BossUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BossEffect.cpp">
+      <Filter>03. GameObject\99. FinalBoss\BossEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BossCard.cpp">
+      <Filter>03. GameObject\99. FinalBoss\BossCard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Ocean.cpp">
+      <Filter>03. GameObject\99. Enviroment\Ocean</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\LoadingScene.cpp">
+      <Filter>02. Scene\00. LoadingScene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>00. DefaultWindow\Assets</Filter>
+    </Image>
+    <Image Include="DX3DPRJCT.ico">
+      <Filter>00. DefaultWindow\Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DX3DPRJCT.rc">
+      <Filter>00. DefaultWindow\Assets</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
