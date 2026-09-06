@@ -4,8 +4,8 @@
 오픈월드 액션 RPG **명조: 워더링 웨이브(Wuthering Waves)**의 캐릭터 전투와 보스전을 **C++와 DirectX 11로 모작한 개인 프로젝트**입니다.
 **컴포넌트 기반 게임 프레임워크**부터 **플레이어 조작·전투**, **몬스터·보스 AI**, **애니메이션·렌더링**, **맵·상호작용·UI**와 **제작 도구**까지 구현했습니다.
 
-### [GitHub Repository](https://github.com/Nu-LungJi/Direct3D-Personal-Project)
-### [게임 시연 영상](https://youtu.be/_2EzDroSFFE)
+## [GitHub Repository](https://github.com/Nu-LungJi/Direct3D-Personal-Project)
+## [게임 시연 영상 (Demo Video)](https://youtu.be/_2EzDroSFFE)
 
 | 항목      | 내용                                                                                                     |
 | ------- | ------------------------------------------------------------------------------------------------------ |
